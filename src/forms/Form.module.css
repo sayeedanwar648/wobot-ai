@@ -7,7 +7,10 @@
 .main_container{
     background-image: url("https://blog.decographic.net/hubfs/Screen%20Shot%202020-12-16%20at%203.14.38%20PM.png");
     width: 100%;
-  
+    height: 980px;
+  display: flex;
+  flex-direction: column;
+
 
 }
 
@@ -16,13 +19,12 @@
 display: flex;
 justify-content: center;
 
-/* height: 650px; */
 }
 .logo{
    
 display: flex;
 justify-content: flex-start;
-margin-left: 100px;
+margin-left: 80px;
 
 
 
@@ -67,6 +69,12 @@ margin: 10px 0;
     margin: 10px 0;
     padding: 5px;
 }
+input:focus{
+    outline-color: #3766e8;
+}
+select:focus{
+    outline-color: #3766e8;
+}
 .btn{
     background-color: #3766e8;
     color: white;
@@ -92,4 +100,7 @@ margin: 10px 0;
 .location_btn button:hover{
    background-color: #3766e8;
    color: white;
+}
+.policy{
+    margin-bottom: 100px;
 }

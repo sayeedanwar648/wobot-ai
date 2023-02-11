@@ -7,7 +7,7 @@ export const Form = () => {
   return (
     <div className={styles.main_container}>
         <div className={styles.logo}>
-            <img width="150px" src={url} alt="" />
+            <img height="100px" width="130px" src={url} alt="" />
 
         </div>
     <div className={styles.container}>
@@ -44,6 +44,9 @@ export const Form = () => {
      </form>
     </div>
     
+       </div>
+       <div className={styles.policy}>
+
        </div>
        </div>
   )
