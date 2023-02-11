@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.main_container{
+    background-image: url("https://blog.decographic.net/hubfs/Screen%20Shot%202020-12-16%20at%203.14.38%20PM.png");
+    width: 100%;
+  
+
+}
+
+.container{
+
+display: flex;
+justify-content: center;
+
+/* height: 650px; */
+}
+.logo{
+   
+display: flex;
+justify-content: flex-start;
+margin-left: 100px;
+
+
+
+}
+.form{
+    box-shadow: rgba(255, 254, 254, 0.2) 0px 2px 8px 0px;
+    width: 30%;
+    padding: 0 40px 20px 40px;
+    border-radius: 5px;
+    background-color: white;
+    margin-bottom: 100px;
+}
+.heading{
+  
+    width: 60%;
+    margin: auto;
+    
+}
+.heading img{
+ width: 40%;
+}
+.heading h4{
+
+margin: 10px 0;
+}
+
+.heading h6{
+
+    margin: 10px 0 ;
+    }
+.description{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    text-align: left;
+}
+.description input{
+    margin: 10px 0;
+    padding: 5px;
+}
+.description select{
+    margin: 10px 0;
+    padding: 5px;
+}
+.btn{
+    background-color: #3766e8;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: #809ef1;
+    color: white;
+    
+}
+.location_btn{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+    
+}
+.location_btn button{
+    padding: 2px;
+    border: none;
+}
+.location_btn button:hover{
+   background-color: #3766e8;
+   color: white;
+}
